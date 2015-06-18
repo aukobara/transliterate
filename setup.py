@@ -7,7 +7,7 @@ try:
 except:
     readme = ''
 
-version = '1.7.3'
+version = '1.7.3.ok.patched.1'
 
 install_requires = [
     #'six>=1.1.0,<=1.4.1',
@@ -44,7 +44,7 @@ setup(
         "Natural Language :: Ukranian",
     ],
     keywords = 'translit, transliteration',
-    author = 'Artur Barseghyan',
+    author = 'Artur Barseghyan @ patched by aukobara@gmail.com',
     author_email = 'artur.barseghyan@gmail.com',
     url = 'https://github.com/barseghyanartur/transliterate',
     package_dir = {'':'src'},
